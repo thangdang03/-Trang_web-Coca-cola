@@ -1,0 +1,49 @@
+.container-WaterStewardship {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-water img {
+    top: -188px;
+    left: -15px;
+}
+
+iframe {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.timeline{
+    width: 1000px;
+    height: 540px;
+    background-color: black;
+    margin-bottom: 60px ;
+}
+
+.item1 p {
+    font-size: 25px;
+    margin: 20px 0 20px 20px;
+    padding-left: 18px;
+    border-left: 3px solid red;
+}
+
+.item2 p{
+    padding: 10px 0;
+    color: black;
+}
+
+.item3 p{
+    padding: 10px 0;
+    color: black;
+}
+
+.grid-item{
+    margin-top: 20px;
+    min-height: 150px;
+}
+
