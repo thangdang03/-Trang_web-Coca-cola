@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Coca-cola Company</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../../css/homepage/style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="main_logo">
+            <img src="../../img/home-page.img/Untitled1.png" alt="">
+        </div>
+        <div class="cover"></div>      
+        <nav id="navbar">       
+            <div class="logo_cover">
+                <img src="../../img/home-page.img/logo-header.png" alt="">
+            </div>
+            <div class="main_nav">
+                <ul id="list_menu">
+                    <li><a href="../company.html/our_company.html">Our Company</a></li>
+                    <li><a href="../brands.html/our brands.html">Our Brands</a></li>
+                    <li><a href="">Sustainability</a></li>
+                    <li><a href="">Social Impact</a></li>
+                    <li><a href="">Careers</a></li>             
+                </ul>
+                <div class="main_icons">
+                    <ul>
+                        <li><a id="a" href="https://www.coca-colacompany.com/search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a id="a" href="https://www.coca-colacompany.com/country-selector"><i class="fa-sharp fa-solid fa-globe"></i></a></li>                      
+                    </ul>       
+                </div>
+
+            </div>
+
+        </nav>
+        <div class="section"></div>
+
+        <div class="main_content">
+            <div class="main_content_item1">
+                <img src="../../img/home-page.img/8.1.png" alt="">
+                <div class="main_link_web1">
+                    <a href="#">HOW WE SUPPORT COMMUNITIES</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>         
+            <div class="main_content_item1">
+                <img src="../../img/home-page.img/7.1.png" alt="">
+                <div class="main_link_web2">
+                    <a href="">EXPLORE OUR WORLD WITHOUT WASTE GOALS AND PROGRESS</a>
+                    <i class="fa-solid fa-angle-right"></i>                  
+                </div>
+            </div>
+
+            <div class="main_content_item1">
+                <img src="../../img/home-page.img/6.1.png" alt="">
+                <div class="main_link_web3">
+                    <a href="">EXPLORE OUR 2021 BUSINESS & ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+
+            <div class="main_content_item1">
+                <img src="../../img/home-page.img/3.1.png" alt="">
+                <div class="main_link_web4">
+                    <a href="">LEARN MORE ABOUT OUR STRATEGY</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+
+            <div class="main_content_item1">
+                <img src="../../img/home-page.img/4.1.png" alt="">
+                <div class="main_link_web5">
+                    <a href="../brands.html/our brands.html">EXPLORE OUR BRANDS</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+
+            <div class="main_content_item1">
+                <img src="../../img/home-page.img/5.1.png" alt="">
+                <div class="main_link_web6">
+                    <a href="">EXPLORE SOCIAL RESPONSIBILITY</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_footer">
+            <div class="main_footer_nav">
+                <div class="main_footer_nav_img">
+                  <img src="../../img/home-page.img/logo-footer.png" alt="">
+                </div>
+                <div class="main_footer_nav_text">
+                    <ul>
+                        <li><a href="https://www.coca-colacompany.com/contact-us" target="_blank">Contact Us</a></li>
+                        <li><a href="">Coca-cola Foundation</a></li>
+                        <li><a href="https://www.coca-colacompany.com/policies-and-practices">Policies</a></li>
+                        <li><a href="../company.html/history.html">History</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_footer_nav_bottom">
+                <div class="main_footer_nav_bottom_text">
+                    <span>2022 The Coca-Cola Company. All Rights Reserved. </span>
+                    <br>
+                    <a href="https://us.coca-cola.com/privacy-policy">Privacy</a>
+                </div>
+                <div class="main_footer_nav_bottom_icons">
+                    <ul>
+                        <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("list_menu");
+
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+            }
+            else{
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+</html>
