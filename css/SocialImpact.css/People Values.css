@@ -1,0 +1,29 @@
+.imgpeople img {
+    height: 100%;
+    width: 900px;
+}
+
+.recoment-people {
+    text-align: center;
+
+}
+.recoment-people h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.recoment-people img {
+    width: 100%;
+}
+
+.recoment-people p {
+    padding: 20px;
+}
+
+.recoment-people a {
+    color: black;
+}
+
+.imgpeople a:hover {
+    color: red;
+}
